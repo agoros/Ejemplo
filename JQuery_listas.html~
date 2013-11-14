@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Including a  jQuery local library </title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<script src="js/jquery.js" type="text/javascript"></script>
+     
+    <script type = "text/javascript"> //adddddddd
+
+	$(function() {
+		$('ul li:first').css('border-top','1px solid red');
+		$('ul li:last').css('border-bottom','1px solid red');
+	}); 
+</script>
+<body>
+		<div id='menu'> 
+			<ul>
+				<li><a href='/index'>Home</a></li>
+				<li><a href='/about'>About Us</a></li>
+				<li><a href='/customer-service'>Customer Service</a></li>
+				<li><a href='/contact'>Contact Us</a></li>
+				<li><a href='/coupons'>Coupons</a></li>
+			</ul>
+		</div>
+</body>
